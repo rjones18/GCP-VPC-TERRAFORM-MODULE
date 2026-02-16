@@ -1,7 +1,7 @@
 module "vpc" {
-  source     = "../modules/gcp-vpc"
-  project_id = var.project_id
-  name       = "prod-vpc"
+  source     = "../"
+  project_id ="alert-flames-286515"
+  name       = "cloud-projects-vpc"
 
   subnets = {
     "us-central1-app" = {
